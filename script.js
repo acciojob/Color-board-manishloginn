@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         square.addEventListener('mouseover', function () {
             square.style.backgroundColor = '#3498db'; // Color on hover
             setTimeout(() => {
-                square.style.backgroundColor = '#ccc'; // Restore initial color after 1 second
+                square.style.backgroundColor =  'rgb(204, 204, 204)'; // Restore initial color after 1 second
             }, 1000);
         });
     }
